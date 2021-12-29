@@ -1,0 +1,335 @@
+body{
+    background-color: rgb(62, 5, 116);
+}
+header, section, footer{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {background-color: #3366ff;
+        height: 80px;
+        background-image: url(assets/fondonavarcontes.png);
+        object-fit: cover;
+}
+#principal{
+    height: 850px;
+    width: 960px;
+    background-image: url(assets/fondoarcontes.png);
+    background-repeat: round round;    
+}
+#titulo{
+    height: 80px;
+    width: 225px;
+    float: left;
+}
+#titulo p{
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgb(235, 195, 235);
+    margin-top: 25px;
+    text-align: center;
+    background-image: url(assets/fondotxt.jpg);
+    border-style: groove;
+    border-color: #86592d;
+    border-width: 6px;
+    width: 150px;
+}
+#barra_nav{
+    height: 80px;
+    width: 500px;
+   float: right;
+   }
+   
+#barra_nav li{
+    width: 70px;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-image: url(assets/fondotxt.jpg);
+    border-style: groove;
+    border-color: #86592d;
+    border-width: 7px;
+    font-size: 14px;
+    font-style: oblique;
+    font-weight: bolder;
+    font-family: 'Crimson Text', serif;
+    text-shadow: 2px 2px 2px rgb(235, 195, 235);
+
+}
+li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+#img_principal{
+    height: 500px;
+    width: 370px;
+    float: left;
+    margin-left: 60px;
+   margin-top: 5px;
+}
+
+img{
+    height: auto;
+    width: 100%;
+    }
+img{
+   height: 100%;
+   object-fit: contain;
+}
+
+#arcontes{
+    height: 800px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+#texto{
+    height: 150px;
+    width: 700px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 15px;
+    
+    
+}
+#texto p{
+    background-image: url(assets/fondotxt.jpg);
+    border-style: groove;
+    border-color: #86592d;
+    border-width: 7px;
+    text-align: center;
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: bolder;
+    font-family: 'Crimson Text', serif;
+    text-shadow: 2px 2px 2px rgb(235, 195, 235);
+
+}
+#anemo{
+    height: 390px;
+    width: 220px;
+    background-color: springgreen;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 220px;
+    border-style: groove;
+    border-color: aquamarine;
+    border-width: 5px;
+    box-shadow: aquamarine 5px 10px;
+  
+}
+#anemo img{
+    height: auto;
+}
+#geo{
+    height: 390px;
+    width: 220px;
+    background-color: tan;
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 220px;
+    border-style: groove;
+    border-color: maroon;
+    border-width: 5px;
+    box-shadow: maroon 5px 10px;
+    
+}
+#geo img{
+    height: auto;
+}
+#electro{
+    height: 390px;
+    width: 220px;
+    background-color: violet;
+    position: absolute;
+    margin-left: 540px;
+    margin-top: 220px;
+    border-style: groove;
+    border-color: mediumpurple;
+    border-width: 5px;
+    box-shadow: mediumpurple 5px 10px;
+
+}
+#electro img{
+    height: auto;
+}
+
+#comentario {
+    background-image: url(assets/fondotxt.jpg);
+    border-style: groove;
+    border-color: #86592d;
+    border-width: 7px;
+    height: 160px;
+    width: 600px;
+    position: absolute;
+    float: right;
+    background-color: rgb(36, 112, 212);
+    margin: -200px 380px;
+}
+ #comentario p {
+     margin-left: 5px;
+     font-size: small;
+     font-weight: bolder;
+    font-family: 'Crimson Text', serif;
+ }
+
+
+
+footer{
+    height: 100px;
+    background-color: #333300;
+    background-image: url(assets/fondonavarcontes.png);
+    object-fit: cover;
+}
+   
+footer li{
+    padding-top: 10px;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-image: url(assets/fondotxt.jpg);
+    border-style: groove;
+    border-color: #86592d;
+    border-width: 7px;
+    font-size: 13px;
+    font-style: oblique;
+    font-weight: bolder;
+    font-family: 'Crimson Text', serif;
+    text-shadow: 2px 2px 2px rgb(235, 195, 235);
+
+}
+footer ul{
+    margin-top: 0px;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+    header, section, footer {
+        width: 580px;
+        
+    }
+
+#principal{
+    height: 1190px;
+    width: 580px;
+    
+}
+#titulo{
+    height: 80px;
+    width: 150px;
+    }
+
+#barra_nav{
+    width: 420px;
+ }
+   
+#barra_nav li{
+    width: 58px;
+    font-size: 12px;
+    
+}
+
+#texto{
+    height: 150px;
+    width: 500px;
+}
+
+#anemo, #geo{
+    margin-top: 300px;
+}
+
+#electro{
+    margin-left: 50px;
+    margin-top: 730px;
+}
+#comentario {
+    height: 300px;
+    width: 230px;
+    margin: -400px 500px;
+    }
+}/*fin @media 600 a 1023px */
+
+@media all and (max-width:599px){
+
+    header, section, footer{
+        width: 100%;
+        
+    }
+    
+    header {
+            height: 305px;
+        }
+    #principal{
+        height: 1100px;
+        width: 100%;
+    }
+    
+    #titulo, #barra_nav{
+        height: auto;
+        width: 100%;
+        float: none;
+    }
+    
+    #titulo p{
+        width: 50%;
+    }
+    
+    #barra_nav li{
+        width: 100%;
+        margin-left: -40px;
+    }
+    
+    #arcontes{
+        height: auto;
+        width: 100%;
+    }
+    
+    #texto{
+        height: auto;
+        width: 95%;
+       margin-left: 0px;
+       margin-top: 0px;
+    }
+   
+    #anemo{
+        height: auto;
+        width: 35%;
+        margin-left: 20px;
+        margin-top: 300px;
+    }
+    
+    #geo{
+        height: auto;
+        width: 35%;
+        margin-left: 230px;
+        margin-top: 300px;
+        
+    }
+    
+    #electro{
+        height: auto;
+        width: 35%;
+        margin-left: 50px;
+        margin-top: 650px;
+    }
+    #comentario{
+        height: 300px;
+        width: 170px;
+        margin: -450px 245px;
+    }
+    }
+    footer{
+        height: auto;
+    }
+       
+/*fin media -599px
+    
+

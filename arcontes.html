@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos2.css">
+    <script type="text/javascript" src="funcionpersonaje.js"></script>
+    <link rel="shortcut icon" type="image/png" href="assets/favicon2.png"/>
+    <title>Arcontes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="titulo">
+            <p id= "title">Arcontes</p>
+        </div>
+        <nav id="barra_nav">
+            <ul>
+                <li ><a href="index.html">Principal</a></li>
+                <li ><a href="#">Historia</a></li>
+                <li ><a href="#">Habilidades</a></li>
+                <li ><a href="arcontes.html">Arcontes</a></li>
+                <li ><a href="formulario.html">Contacto</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    <section id="principal">
+        <div id="arcontes">
+            <div id="texto">
+                <p>Los Arcontes son seres con un gran control sobre la energía elemental y cuya esperanza de vida es mucho más larga que la de los mortales. También tienen un vínculo con Celestia. Antes de la Guerra de los Arcontes, muchos dioses vagaban por el continente de Teyvat. Por razones desconocidas, siete asientos divinos se abrieron en Celestia, provocando que el continente descendiera a una prolongada serie de conflictos que terminaron hace 2000 años. En el transcurso de la guerra, la mayoría de los dioses fueron asesinados o sellados hasta que solo quedaron siete vencedores; cada uno se convirtió en el Arconte de su elemento respectivo y se hizo en los gobernantes de una de las futuras siete naciones, usando sus poderes para transformar su terreno y gobernando la tierra de acuerdo con sus ideales.</p>
+            </div>
+            <div id="anemo">
+            <a href="#" onclick="mostrarComentario()"> <img src="assets/venti.png" alt="Venti"></a>
+            </div>
+            <div id="geo">
+            <a href="#" onclick="mostrarComentario()"><img src="assets/zhongli.png" alt="Zhongli"></a>
+            </div>
+            <div id="electro">
+            <a href="#" onclick="mostrarComentario()"><img src="assets/ei.png" alt="Shogun Raiden"></a>
+            </div>
+        </div>
+    </section>
+   
+    <section id="comentario" style="display: none;">
+        <p>Aqui iran tus respuestas luego de tocar el boton "Preguntar":</p>
+        <p id="gusto"></p>
+        <p id="razones"></p>
+
+        <form>
+            <input type="button" value="Preguntar" onclick="preguntarPersonaje()" /> 
+            </form>
+    </section>
+    
+    <footer>
+        <ul>
+            <li ><a href="#">Acerca de Genshin Impact</a></li>
+            <li ><a href="#">Informacion de la página</a></li>
+            <li ><a href="#">Redes Sociales</a></li>
+        </ul>
+    </footer>
+
+    <script>
+    document.getElementById("texto").style.color = "#000099";
+    document.getElementById("title").style.color = "#000099";
+    var x = document.getElementsByTagName("a");
+    var i;
+    for (i = 0; i < x.length; i++) {
+    x[i].style.color = "blue";
+    x[1].style.color = "green";
+    x[2].style.color = "grey";
+    }    
+    </script> 
+</body>
+</html>

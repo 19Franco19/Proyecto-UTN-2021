@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="formscript.js"></script>
+    
+
+</head>
+<body>
+    <header>
+        <div id="titulo">
+            <p>Contactanos!</p>
+        </div>
+        <nav id="barra_nav">
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="#">Historia</a></li>
+                <li><a href="#">Habilidades</a></li>
+                <li><a href="arcontes.html">Arcontes</a></li>
+                <li><a href="formulario.html">Contacto</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    <section id="principalform">
+        <form class="formulario" action="">
+            <label id="nombre_" >Ingresar nombre</label>
+            <input id="nombre" class="nombre_" type="text" placeholder="Pedro" pattern="[a-zA-Z]{2,}" maxlength="20" >
+            <label id="fechanacimiento" >Ingresar fecha de nacimiento</label>
+            <input class="fecha_" type="date" >
+            <label id="correo_">Ingresar Correo Electronico</label>
+            <input id="correo" class="mail_" type="email" placeholder="pedro@gmail.com" >
+            <label id="comentario">Comentario</label>
+            <textarea name="Comentario" id="comentario" cols="8" rows="2"></textarea>
+            <input class="enviar_" type="submit">
+        </form>
+
+        
+        
+        <section id="cantPersonajes">
+            <p>Tocar el boton para ingresar tu cantidad de personajes y saber cuantos te faltan:</p>
+        <p id="cinco"></p>
+        <p id="cuatro"></p>
+
+        <form>
+            <input type="button" value="Ingresar Cantidad" onclick="preguntarCantidad()" /> 
+            </form>
+        </section>
+        
+    </section>
+    <footer>
+        <ul>
+            <li><a href="#">Acerca de Genshin Impact</a></li>
+            <li><a href="#">Informacion de la página</a></li>
+            <li><a href="#">Redes Sociales</a></li>
+        </ul>
+    </footer>
+<script type="text/javascript" src="formvalidacion.js"></script>
+</body>
+</html>
